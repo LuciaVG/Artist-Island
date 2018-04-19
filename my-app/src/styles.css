@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'surf';
+    src: url('fonts/surfing_capital.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'gobold';
+    src: url('fonts/GoboldRegular.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gobold';
+    src: url('fonts/GoboldLowplus.otf');
+    font-weight: 150;
+}
+@font-face {
+    font-family: 'gobold';
+    src: url('fonts/GoboldThin.otf');
+    font-weight: 100;
+}
+
+body{
+    background-color: #ebeae5;
+}
+
+.navStyle{
+  background-color: #75c8cc;
+  z-index: 2;
+}
+
+.searchBar{
+  width: 30%;
+  color: #ffffff;
+  font-family: gobold;
+  font-weight: 150;
+  font-size: 20px;
+}
+
+.navLink{
+    font-family: gobold;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.titleStyle{
+   color: #ffffff;
+   font-family: surf;
+   font-size: 59px;
+   position: fixed;
+   width: 40%;
+   top: -12px;
+   left: 30%;
+   text-align: center;
+ }

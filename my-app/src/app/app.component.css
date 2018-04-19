@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'mmw';
+    src: url('../fonts/mark_my_words.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'surf';
+    src: url('../fonts/surfing_capital.ttf'); /*URL to font*/
+}
+
+
+h1 {
+  color: #75c8cc;
+  font-family: surf;
+  font-size: 1000%;
+}
+.cosa {
+  color: #ffffff;
+  font-family: surf;
+  font-size: 1000%;
+}
