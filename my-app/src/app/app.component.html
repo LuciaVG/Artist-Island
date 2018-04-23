@@ -1,4 +1,51 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <p class="cosa"> </p>
+
+  <div class="row initialRow">
+    <div class="col s1 "></div>
+    <div class="col s7 cosa" >
+        <div class="row featured">
+          <div>
+            <div class="col s12">
+              <table>
+                <td *ngFor="let x of featured">
+                  <div class="feat">
+                    <div class="row">
+                      <div class="col s6">
+                        <img class="materialboxed" src={{x.url}} width="100%"/>
+                      </div>
+                      <div class="col s6 contain">
+                        <span class="mark">{{x.name}}</span>
+                        {{x.description}}
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row basedOn">
+          <div class="col s12">
+            <table>
+              <td *ngFor="let x of featured">
+                <div class="feat">
+                  {{x}}
+                </div>
+              </td>
+            </table>
+          </div>
+        </div>
+    </div>
+    <div class="col s3 "></div>
+    <div class="col s1 "></div>
+  </div>
+
+  <div class="containerlanding">
+  </div>
+  <div class="contentUp">
+  </div>
+  <div class="contentDown">
+  </div>
+
 </div>

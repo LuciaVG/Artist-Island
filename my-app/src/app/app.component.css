@@ -11,10 +11,123 @@
 h1 {
   color: #75c8cc;
   font-family: surf;
-  font-size: 1000%;
+  font-size: 10%;
 }
 .cosa {
-  color: #ffffff;
-  font-family: surf;
-  font-size: 1000%;
+  color: #fff;
+  font-family: gobold;
+  font-weight: 150;
+  font-size: 60px;
+}
+
+.containerlanding{
+  left: 60%;
+  top: 15%;
+  width: 37%;
+  height: 133%;
+  position: absolute;
+  z-index: -5;
+  background-image: url('../images/side.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+
+ .contentUp{
+   background-color: #aedfdb;
+   position: absolute;
+   z-index: -5;
+   width: 62%;
+   height: 53%;
+   top: 20%;
+   left: 4%;
+   opacity: .6;
+   transform: rotate(2deg);
+ }
+
+ .contentDown{
+   background-color: #aedfdb;
+   position: absolute;
+   z-index: -5;
+   width: 63%;
+   height: 53%;
+   top: 87%;
+   left: 5%;
+   opacity: .6;
+  transform: rotate(-1deg);
+ }
+
+.initialRow{
+  padding-top: 10%;
+  height: 100%;
+}
+
+.featured{
+  width: 96%;
+  height: 62%;
+  margin-top: 5%;
+  margin-left: -2%;
+  z-index: -4;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.basedOn{
+  width: 96%;
+  height: 42%;
+  margin-top: 24%;
+  z-index: -4;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ebeae5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f3bbae;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+.feat{
+  height: 260px;
+  width: 520px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 15px;
+  padding: 7%;
+  color: #888;
+  -webkit-box-shadow: -4px 4px 10px 0px rgba(156,156,156,1);
+  -moz-box-shadow: -4px 4px 10px 0px rgba(156,156,156,1);
+  box-shadow: -4px 4px 10px 0px rgba(156,156,156,1);
+}
+.leftPart{
+width: 50%;
+}
+
+.contain{
+  width: 100%;
+  height: 100%;
+  white-space: pre-line;
+}
+
+.mark{
+  font-size: 25px;
+  font-weight: normal;
+  color: #f3bbae;
+
 }

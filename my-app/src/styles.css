@@ -22,9 +22,12 @@ body{
     background-color: #ebeae5;
 }
 
+
+
 .navStyle{
   background-color: #75c8cc;
-  z-index: 2;
+  position: fixed;
+  top: 0px;
 }
 
 .searchBar{
@@ -51,3 +54,27 @@ body{
    left: 30%;
    text-align: center;
  }
+
+ .footStyle{
+   background-image: url(images/footer2.png);
+   background-color:  inherit;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   margin-top: 10%;
+   padding-top: 4%;
+   font-family: gobold;
+   font-weight: 150;
+ }
+
+.c1{
+  color: #f3bbae;
+}
+
+.c2{
+  color: #fcdccf;
+}
+
+.c3{
+  color: #ebeae5;
+}
