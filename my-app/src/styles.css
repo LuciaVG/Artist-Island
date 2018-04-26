@@ -28,6 +28,7 @@ body{
   background-color: #75c8cc;
   position: fixed;
   top: 0px;
+  z-index: 999;
 }
 
 .searchBar{
@@ -53,6 +54,7 @@ body{
    top: -12px;
    left: 30%;
    text-align: center;
+   z-index: 1000
  }
 
  .footStyle{
